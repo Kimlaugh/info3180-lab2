@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block main %}
+<header>
+    <div class = "info">
+        <img src="{{url_for('static', filename='me.jpg')}}"/>
+        <h1>Kimberly Laughton</h1>
+        <h3>@KimCL</h3>
+        <h3>Kingston, Jamaica</h3>
+        <h3>{{ date }}</h3>
+    </div>
+</header>
+<body>
+    <div class ="about">
+        <p id="bio">A 4'11  petite 20 year old with a big personality. I love designing, cooking and online shopping. I was born in Kingston, Jamaica on October 23rd 2002 on a Wednesday night at the St.Josephs Hospital. At 13 years old I made the decision that I wanted to pursue Computer Science after being inspierd by a charcter in one of my favourite shows at the time, Arrow.</p> 
+    </div>
+    <div class = "info2">
+        <div class = "posts">
+            <h4>5</h4>
+            <p>Posts</p>
+        </div>
+        <div class = "following">
+            <h4>210</h4>
+            <p>Following</p>
+        </div>
+        <div class = "followers">
+            <h4>535</h4>
+            <p>Followers</p>
+        </div>
+    </div>
+    <button type="follow">Follow</button>
+</body>
+{% endblock %}

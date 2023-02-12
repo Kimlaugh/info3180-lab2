@@ -1,3 +1,84 @@
 body {
     padding-top: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #242F40;
+    
+}
+
+.info h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info h3{
+    font-size: 15px;
+}
+
+.info{
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 15px;
+    
+    
+}
+
+.info2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+
+.followers,.following, .posts{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1px;
+    
+}
+
+h4{
+    font-weight: bold;
+    font-size: 17px;
+    color: #242F40;
+    text-align: center;
+}
+
+#bio{
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 15px;
+}
+
+button{
+    border-style: none;
+    border-radius: 8%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F7B801;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 23%;
+    height: 23%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-color: #323e51;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
